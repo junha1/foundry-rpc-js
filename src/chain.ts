@@ -14,6 +14,7 @@ export type Block = {
     timestamp: number;
     transactions: Transaction[];
     transactionsRoot: string;
+    validatorSetRoot: string;
 };
 
 type UnsignedTransaction = Object;
